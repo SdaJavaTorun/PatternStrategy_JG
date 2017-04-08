@@ -14,6 +14,11 @@ public class Worker {
                     this.freeTime = new Gim();
                     this.traveling = new Bike();
                     break;
+                case "Doktor" :
+                    this.work = new Healing();
+                    this.freeTime = new Literature();
+                    this.traveling = new Car();
+                    break;
 
             }
     }
